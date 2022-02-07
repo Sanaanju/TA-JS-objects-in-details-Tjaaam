@@ -13,6 +13,7 @@ For each different ways of creating object write different solutions.
 - Create using class
 - Write test by creating two objects also test both methods.*/
 
+
 //Prototyple pattern
 let questionMethods={
 
@@ -23,7 +24,7 @@ let questionMethods={
        return this.options[this.correctAnswerIndex];
     }
 }
-
+}
 function createques(title,options,correctAnswerIndex){
 
     let ques=Object.create(quesMethods);
@@ -59,7 +60,7 @@ function question (title,options,correctAnswerIndex){
         }
     }
 
-
+}
 
 //class pattern
 class question{
