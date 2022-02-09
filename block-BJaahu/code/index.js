@@ -38,7 +38,7 @@ Question.prototype = {
     getCorrectAnswer: function() {
         return this.options[this.correctAnswer];
     }
-}
+
 
 
 
