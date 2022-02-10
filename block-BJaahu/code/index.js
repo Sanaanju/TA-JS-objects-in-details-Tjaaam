@@ -57,8 +57,6 @@ class Question {
         return this.options[this.correctAnswer];
     }
 }
-}
-
 
 let firstQuestion = new Question(
     'Where is the capital of Jordan',
