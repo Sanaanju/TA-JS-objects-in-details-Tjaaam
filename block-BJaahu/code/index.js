@@ -1,7 +1,5 @@
 
 // Prototypal pattern
-
-
 let questionMethods = {
     isAnswerCorrect: function(ans) {
         return this.correctAnswer === ans
@@ -10,8 +8,6 @@ let questionMethods = {
         return this.options[this.correctAnswer];
     }
 }
-
-
 function Question(title,options, ans) {
     let obj = Object.create(questionMethods);
     obj.title = title;
@@ -21,10 +17,7 @@ function Question(title,options, ans) {
     return obj;
 }
 
-
 // Pseudoclassical Pattern
-
-
 function Question(title,options, ans) {
     this.title = title;
     this.options = options;
@@ -38,8 +31,6 @@ Question.prototype = {
     getCorrectAnswer: function() {
         return this.options[this.correctAnswer];
     }
-
-
 
 
 // Class pattern
