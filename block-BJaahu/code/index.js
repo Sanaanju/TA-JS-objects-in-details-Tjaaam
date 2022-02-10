@@ -24,6 +24,8 @@ function Question(title,options, ans) {
     this.correctAnswer = ans;
 }
 
+
+
 Question.prototype = {
     isAnswerCorrect: function(ans) {
         return this.correctAnswer === ans
@@ -48,7 +50,6 @@ class Question {
         return this.options[this.correctAnswer];
     }
 }
-
 let firstQuestion = new Question(
     'Where is the capital of Jordan',
     ['Tashkent', 'Amaan', 'Kuwait City', 'Nairobi'],
