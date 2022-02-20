@@ -16,7 +16,6 @@ function Question(title,options, ans) {
 
     return obj;
 }
-
 // Pseudoclassical Pattern
 function Question(title,options, ans) {
     this.title = title;
