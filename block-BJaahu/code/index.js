@@ -22,7 +22,6 @@ function Question(title,options, ans) {
     this.options = options;
     this.correctAnswer = ans;
 }
-
 Question.prototype = {
     isAnswerCorrect: function(ans) {
         return this.correctAnswer === ans
@@ -32,7 +31,6 @@ Question.prototype = {
     }
 
 // Class pattern
-
 class Question {
     constructor(title,options, ans) {
         this.title = title;
