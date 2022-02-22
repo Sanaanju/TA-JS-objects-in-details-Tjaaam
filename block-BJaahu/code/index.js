@@ -8,6 +8,7 @@ let questionMethods = {
         return this.options[this.correctAnswer];
     }
 }
+
 function Question(title,options, ans) {
     let obj = Object.create(questionMethods);
     obj.title = title;
@@ -16,6 +17,7 @@ function Question(title,options, ans) {
 
     return obj;
 }
+
 // Pseudoclassical Pattern
 function Question(title,options, ans) {
     this.title = title;
@@ -31,6 +33,7 @@ Question.prototype = {
     }
 
 // Class pattern
+
 class Question {
     constructor(title,options, ans) {
         this.title = title;
