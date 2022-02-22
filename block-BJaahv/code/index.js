@@ -42,7 +42,6 @@ function createUser(name, id, noOfProjects) {
     return user.noOfProjects - value;
   }
 
-
   // using prototypal pattern
 
   function createUser(name, id, noOfProjects) {
