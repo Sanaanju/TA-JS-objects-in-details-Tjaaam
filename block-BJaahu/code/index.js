@@ -34,6 +34,7 @@ Question.prototype = {
 
 // Class pattern
 
+
 class Question {
     constructor(title,options, ans) {
         this.title = title;
