@@ -8,7 +8,6 @@ let questionMethods = {
         return this.options[this.correctAnswer];
     }
 }
-
 function Question(title,options, ans) {
     let obj = Object.create(questionMethods);
     obj.title = title;
