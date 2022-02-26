@@ -10,11 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-<<<<<<< HEAD
+block-BJaahu
+HEAD
     - uses: actions/checkout@v2 
-=======
+
     - uses: actions/checkout@v2
->>>>>>> ba28767560e51ca670d7dad7f467dbd318f2d4ca
+ba28767560e51ca670d7dad7f467dbd318f2d4ca
+
+    - uses: actions/checkout@v2
+ block-BJaahs
     - name: Use Node.js 12
       uses: actions/setup-node@v1
       with:
